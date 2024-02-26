@@ -1,0 +1,1646 @@
+:root {
+  --color1: rgb(216,183,11);
+  --color2: rgb(74,39,215);
+  --alpha1: #fac;
+  --alpha2: #ddccaa;
+  --beta1: #54a29e;
+  --beta2: #a79d66;
+  --gamma1: #EF4940;
+  --gamma2: #7C5CF8;
+  --delta1: #728D52;
+  --delta2: #4A1BF3;
+  --phi1: #fac;
+  --phi2: #ddccaa;
+  --psi1: #4A1BF3;
+  --psi2: #650866;
+  --omega1: #650866;
+  --omega2: #acc6f8;
+  --donzoveliumfront: url(https://evium.github.io/eviumweb/assets/img/Donzovelium.jpg);
+  --agrigatafront: url(https://evium.github.io/eviumweb/assets/img/Agrigata.jpg);
+  --mazzmotisfront: url(https://evium.github.io/eviumweb/assets/img/Mazzmotis.jpg);
+  --stalliusfront: url(https://evium.github.io/eviumweb/assets/img/Stallius.jpg);
+  --waldrogfront: url(https://evium.github.io/eviumweb/assets/img/Waldrog.jpg);
+  --plasmotisfront: url(https://evium.github.io/eviumweb/assets/img/Plasmotis.jpg);
+  --pangzillousfront: url(https://evium.github.io/eviumweb/assets/img/Pangzillous.jpg);
+  --bertizardesfront: url(https://evium.github.io/eviumweb/assets/img/Bertizardes.jpg);
+  --yakisfront: url(https://evium.github.io/eviumweb/assets/img/Yakis.jpg);
+  --mandmonkfront: url(https://evium.github.io/eviumweb/assets/img/Mandmonk.jpg);
+  --wovolkfront: url(https://evium.github.io/eviumweb/assets/img/Wovolk.jpg);
+  --hedzedfront: url(https://evium.github.io/eviumweb/assets/img/Hedzed.jpg);
+  --koabkraubfront: url(https://evium.github.io/eviumweb/assets/img/Koabkraub.jpg);
+  --gronamidesfront: url(https://evium.github.io/eviumweb/assets/img/Gronamides.jpg);
+  --nothrilesfront: url(https://evium.github.io/eviumweb/assets/img/Nothriles.jpg);
+  --zbrunicronfront: url(https://evium.github.io/eviumweb/assets/img/Zbrunicron.jpg);
+  --exkamilopfront: url(https://evium.github.io/eviumweb/assets/img/Exkamilop.jpg);
+  --wheasleapfront: url(https://evium.github.io/eviumweb/assets/img/Wheasleap.jpg);
+  --moonssefront: url(https://evium.github.io/eviumweb/assets/img/Moonsse.jpg);
+  --metafoksfront: url(https://evium.github.io/eviumweb/assets/img/Metafoks.jpg);
+  --krakvusfront: url(https://evium.github.io/eviumweb/assets/img/Krakvus.jpg);
+  --ducquapfront: url(https://evium.github.io/eviumweb/assets/img/Ducquap.jpg);
+  --leathionfront: url(https://evium.github.io/eviumweb/assets/img/Leathion.jpg);
+  --whalgfaurusfront: url(https://evium.github.io/eviumweb/assets/img/Whalgfaurus.jpg);
+  --zharkhaiousfront: url(https://evium.github.io/eviumweb/assets/img/Zharkhaious.jpg);
+  --kavasillacrabfront: url(https://evium.github.io/eviumweb/assets/img/Kavasillacrab.jpg);
+  --okoimotofront: url(https://evium.github.io/eviumweb/assets/img/Okoimoto.jpg);
+  --terazariousfront: url(https://evium.github.io/eviumweb/assets/img/Terazarious.jpg);
+  --soigigifront: url(https://evium.github.io/eviumweb/assets/img/Soigigi.jpg);
+  --gorgonitufront: url(https://evium.github.io/eviumweb/assets/img/Gorgonitu.jpg);
+  --finkintonosfront: url(https://evium.github.io/eviumweb/assets/img/Finkintonos.jpg);
+  --jikifront: url(https://evium.github.io/eviumweb/assets/img/Jiki.jpg);
+  --exonerofront: url(https://evium.github.io/eviumweb/assets/img/Exonero.jpg);
+  --crebyfront: url(https://evium.github.io/eviumweb/assets/img/Creby.jpg);
+  --terlonafront: url(https://evium.github.io/eviumweb/assets/img/Terlona.jpg);
+  --solfrissfront: url(https://evium.github.io/eviumweb/assets/img/Solfriss.jpg);
+  --motivivofront: url(https://evium.github.io/eviumweb/assets/img/Motivivo.jpg);
+  --shimpkingfront: url(https://evium.github.io/eviumweb/assets/img/Shimpking.jpg);
+  --asteritesfront: url(https://evium.github.io/eviumweb/assets/img/Asterites.jpg);
+  --sleofront: url(https://evium.github.io/eviumweb/assets/img/Sleo.jpg);
+  --salparthiafront: url(https://evium.github.io/eviumweb/assets/img/Salparthia.jpg);
+  --garimanfront: url(https://evium.github.io/eviumweb/assets/img/Gariman.jpg);
+  --pinginifront: url(https://evium.github.io/eviumweb/assets/img/Pingini.jpg);
+  --finidofront: url(https://evium.github.io/eviumweb/assets/img/Finido.jpg);
+  --freglegsfront: url(https://evium.github.io/eviumweb/assets/img/Freglegs.jpg);
+  --marlharlfront: url(https://evium.github.io/eviumweb/assets/img/Marlharl.jpg);
+  --drazozeliumfront: url(https://evium.github.io/eviumweb/assets/img/Drazozelium.jpg);
+  --hipotitumfront: url(https://evium.github.io/eviumweb/assets/img/Hipotitum.jpg);
+  --drogokomogufront: url(https://evium.github.io/eviumweb/assets/img/Drogokomogu.jpg);
+  --folkinifront: url(https://evium.github.io/eviumweb/assets/img/Folkini.jpg);
+  --pheonxelliumfront: url(https://evium.github.io/eviumweb/assets/img/Pheonxellium.jpg);
+  --ibixiousfront: url(https://evium.github.io/eviumweb/assets/img/Ibixious.jpg);
+  --troccanfront: url(https://evium.github.io/eviumweb/assets/img/Troccan.jpg);
+  --chromontasfront: url(https://evium.github.io/eviumweb/assets/img/Chromontas.jpg);
+  --inkouaniumfront: url(https://evium.github.io/eviumweb/assets/img/Inkouanium.jpg);
+  --soldonfront: url(https://evium.github.io/eviumweb/assets/img/Soldon.jpg);
+  --toshafront: url(https://evium.github.io/eviumweb/assets/img/Tosha.jpg);
+  --sagordufront: url(https://evium.github.io/eviumweb/assets/img/Sagordu.jpg);
+  --ekrixiousfront: url(https://evium.github.io/eviumweb/assets/img/Ekrixious.jpg);
+  --sthimmerfront: url(https://evium.github.io/eviumweb/assets/img/Sthimmer.jpg);
+  --geckekonfront: url(https://evium.github.io/eviumweb/assets/img/Geckekon.jpg);
+  --atomicoulufront: url(https://evium.github.io/eviumweb/assets/img/Atomicoulu.jpg);
+  --skorpelatonfront: url(https://evium.github.io/eviumweb/assets/img/Skorpelaton.jpg);
+  --ankromedionfront: url(https://evium.github.io/eviumweb/assets/img/Ankromedion.jpg);
+  --delissosfront: url(https://evium.github.io/eviumweb/assets/img/Delissos.jpg);
+  --melerosfront: url(https://evium.github.io/eviumweb/assets/img/Meleros.jpg);
+  --topsimiumfront: url(https://evium.github.io/eviumweb/assets/img/Topsimium.jpg);
+  --dilamperosfront: url(https://evium.github.io/eviumweb/assets/img/Dilamperos.jpg);
+  --dragostegosfront: url(https://evium.github.io/eviumweb/assets/img/Dragostegos.jpg);
+  --bughinifront: url(https://evium.github.io/eviumweb/assets/img/Bughini.jpg);
+  --weveenifront: url(https://evium.github.io/eviumweb/assets/img/Weveeni.jpg);
+  --konopetufront: url(https://evium.github.io/eviumweb/assets/img/Konopetu.jpg);
+  --langbutsafront: url(https://evium.github.io/eviumweb/assets/img/Langbutsa.jpg);
+  --soltheosfront: url(https://evium.github.io/eviumweb/assets/img/Soltheos.jpg);
+  --bogdanakifront: url(https://evium.github.io/eviumweb/assets/img/Bogdanaki.jpg);
+  --arachameofront: url(https://evium.github.io/eviumweb/assets/img/Arachameo.jpg);
+  --argipillfront: url(https://evium.github.io/eviumweb/assets/img/Argipill.jpg);
+  --delitiriumfront: url(https://evium.github.io/eviumweb/assets/img/Delitirium.jpg);
+  --grailsfront: url(https://evium.github.io/eviumweb/assets/img/Grails.jpg);
+  --fantapillfront: url(https://evium.github.io/eviumweb/assets/img/Fantapill.jpg);
+  --ischfront: url(https://evium.github.io/eviumweb/assets/img/Isch.jpg);
+  --muskmollfront: url(https://evium.github.io/eviumweb/assets/img/Muskmoll.jpg);
+  --exanthropidesfront: url(https://evium.github.io/eviumweb/assets/img/Exanthropides.jpg);
+  --stirkfront: url(https://evium.github.io/eviumweb/assets/img/Stirk.jpg);
+  --ospafront: url(https://evium.github.io/eviumweb/assets/img/Ospa.jpg);
+  --hopleaffront: url(https://evium.github.io/eviumweb/assets/img/Hopleaf.jpg);
+  --trispitchyufront: url(https://evium.github.io/eviumweb/assets/img/Trispitchyu.jpg);
+  --hopgraussfront: url(https://evium.github.io/eviumweb/assets/img/Hopgrauss.jpg);
+  --tordfront: url(https://evium.github.io/eviumweb/assets/img/Tord.jpg);
+  --fleenifront: url(https://evium.github.io/eviumweb/assets/img/Fleeni.jpg);
+  --paramanderfront: url(https://evium.github.io/eviumweb/assets/img/Paramander.jpg);
+  --philantikosfront: url(https://evium.github.io/eviumweb/assets/img/Philantikos.jpg);
+  --newtupiterfront: url(https://evium.github.io/eviumweb/assets/img/Newtupiter.jpg);
+  --giguswollfront: url(https://evium.github.io/eviumweb/assets/img/Giguswoll.jpg);
+  --manthereumfront: url(https://evium.github.io/eviumweb/assets/img/Manthereum.jpg);
+  --honghonosfront: url(https://evium.github.io/eviumweb/assets/img/Honghonos.jpg);
+  --nakredesfront: url(https://evium.github.io/eviumweb/assets/img/Nakredes.jpg);
+  --tolkronfront: url(https://evium.github.io/eviumweb/assets/img/Tolkron.jpg);
+  --megakonosfront: url(https://evium.github.io/eviumweb/assets/img/Megakonos.jpg);
+  --levrissfront: url(https://evium.github.io/eviumweb/assets/img/Levriss.jpg);
+  --snaphilidesfront: url(https://evium.github.io/eviumweb/assets/img/Snaphilides.jpg);
+  --terpeniumfront: url(https://evium.github.io/eviumweb/assets/img/Terpenium.jpg);
+  --parawhalfront: url(https://evium.github.io/eviumweb/assets/img/Parawhal.jpg);
+  --medvedesfront: url(https://evium.github.io/eviumweb/assets/img/Medvedes.jpg);
+  --nkyoyofront: url(https://evium.github.io/eviumweb/assets/img/Nkyoyo.jpg);
+  --raousfront: url(https://evium.github.io/eviumweb/assets/img/Raous.jpg);
+  --poufiasfront: url(https://evium.github.io/eviumweb/assets/img/Poufias.jpg);
+  --poulosiumfront: url(https://evium.github.io/eviumweb/assets/img/Poulosium.jpg);
+  --dokoridelliumfront: url(https://evium.github.io/eviumweb/assets/img/Dokoridellium.jpg);
+  --encratopsfront: url(https://evium.github.io/eviumweb/assets/img/Encratops.jpg);
+  --okroppiumfront: url(https://evium.github.io/eviumweb/assets/img/Okroppium.jpg);
+  --nychfront: url(https://evium.github.io/eviumweb/assets/img/Nych.jpg);
+  --levusfront: url(https://evium.github.io/eviumweb/assets/img/Levus.jpg);
+  --prawdesfront: url(https://evium.github.io/eviumweb/assets/img/Prawdes.jpg);
+  --clamusfront: url(https://evium.github.io/eviumweb/assets/img/Clamus.jpg);
+  --zeagseafront: url(https://evium.github.io/eviumweb/assets/img/Zeagsea.jpg);
+  --thaventisfront: url(https://evium.github.io/eviumweb/assets/img/Thaventis.jpg);
+  --peripingfront: url(https://evium.github.io/eviumweb/assets/img/Periping.jpg);
+  --leoparniousfront: url(https://evium.github.io/eviumweb/assets/img/Leoparnious.jpg);
+  --maggsmillitesfront: url(https://evium.github.io/eviumweb/assets/img/Maggsmillites.jpg);
+  --elstagriumpfront: url(https://evium.github.io/eviumweb/assets/img/Elstagriump.jpg);
+  --srowfront: url(https://evium.github.io/eviumweb/assets/img/Srow.jpg);
+  --souvafront: url(https://evium.github.io/eviumweb/assets/img/Souva.jpg);
+  --lehbosfront: url(https://evium.github.io/eviumweb/assets/img/Lehbos.jpg);
+  --centraullidesfront: url(https://evium.github.io/eviumweb/assets/img/Centraullides.jpg);
+  --trichronfront: url(https://evium.github.io/eviumweb/assets/img/Trichron.jpg);
+  --brevrysfront: url(https://evium.github.io/eviumweb/assets/img/Brevrys.jpg);
+  --katamechufront: url(https://evium.github.io/eviumweb/assets/img/Katamechu.jpg);
+  --sehefront: url(https://evium.github.io/eviumweb/assets/img/Sehe.jpg);
+  --akriadinamafront: url(https://evium.github.io/eviumweb/assets/img/Akriadinama.jpg);
+  --polyladafront: url(https://evium.github.io/eviumweb/assets/img/Polylada.jpg);
+  --tortmovfront: url(https://evium.github.io/eviumweb/assets/img/Tortmov.jpg);
+  --mcroobfront: url(https://evium.github.io/eviumweb/assets/img/Mcroob.jpg);
+  --stukosfront: url(https://evium.github.io/eviumweb/assets/img/Stukos.jpg);
+  --zerbusonfront: url(https://evium.github.io/eviumweb/assets/img/Zerbuson.jpg);
+  --volterafront: url(https://evium.github.io/eviumweb/assets/img/Voltera.jpg);
+  --wolverafront: url(https://evium.github.io/eviumweb/assets/img/Wolvera.jpg);
+  --stimprimafront: url(https://evium.github.io/eviumweb/assets/img/Stimprima.jpg);
+  --toocoodofront: url(https://evium.github.io/eviumweb/assets/img/Toocoodo.jpg);
+  --hexellionfront: url(https://evium.github.io/eviumweb/assets/img/Hexellion.jpg);
+  --elphlongfront: url(https://evium.github.io/eviumweb/assets/img/Elphlong.jpg);
+  --meofront: url(https://evium.github.io/eviumweb/assets/img/Meo.jpg);
+  --whilkilneumfront: url(https://evium.github.io/eviumweb/assets/img/Whilkilneum.jpg);
+  --gatafishufront: url(https://evium.github.io/eviumweb/assets/img/Gatafishu.jpg);
+  --crozeliumfront: url(https://evium.github.io/eviumweb/assets/img/Crozelium.jpg);
+  --swoonfront: url(https://evium.github.io/eviumweb/assets/img/Swoon.jpg);
+  --mishereumfront: url(https://evium.github.io/eviumweb/assets/img/Mishereum.jpg);
+}
+
+.card {
+  height: 320px;
+  width: 228px;
+  position: relative;
+  box-shadow: 2px 4px 0.7rem rgba(11, 0, 22, 0.8);
+  overflow: hidden;
+  margin: 0px;
+  overflow: hidden;
+  z-index: 10;
+  touch-action: none;
+  border-radius: 10px;
+  will-change: transform, filter;
+  background-color: transparent;
+  background-image: var(--front);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transform-origin: center;
+}
+@media screen and (min-width: 600px) {
+  .card {
+    height: 320px;
+    width: 228px;
+  }
+}
+
+.card.donzovelium {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--donzoveliumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.agrigata {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--agrigatafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.mazzmotis {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--mazzmotisfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.stallius {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--stalliusfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.waldrog {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--waldrogfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.plasmotis {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--plasmotisfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.pangzillous {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--pangzillousfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.bertizardes {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--bertizardesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.yakis {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--yakisfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.mandmonk {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--mandmonkfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.wovolk {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--wovolkfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.hedzed {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--hedzedfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.koabkraub {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--koabkraubfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.gronamides {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--gronamidesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.nothriles {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--nothrilesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.zbrunicron {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--zbrunicronfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.exkamilop {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--exkamilopfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.wheasleap {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--wheasleapfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.moonsse {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--moonssefront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.metafoks {
+  --color1: var(--alpha1);
+  --color2: var(--alpha2);
+  --front: var(--metafoksfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.krakvus {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--krakvusfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.ducquap {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--ducquapfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.leathion {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--leathionfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.whalgfaurus {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--whalgfaurusfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.zharkhaious {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--zharkhaiousfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.kavasillacrab {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--kavasillacrabfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.okoimoto {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--okoimotofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.terazarious {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--terazariousfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.soigigi {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--soigigifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.gorgonitu {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--gorgonitufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.finkintonos {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--finkintonosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.jiki {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--jikifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.exonero {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--exonerofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.creby {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--crebyfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.terlona {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--terlonafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.solfriss {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--solfrissfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.motivivo {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--motivivofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.shimpking {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--shimpkingfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.asterites {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--asteritesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.sleo {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--sleofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.salparthia {
+  --color1: var(--beta1);
+  --color2: var(--beta2);
+  --front: var(--salparthiafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.gariman {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--garimanfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.pingini {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--pinginifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.finido {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--finidofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.freglegs {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--freglegsfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.marlharl {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--marlharlfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.drazozelium {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--drazozeliumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.hipotitum {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--hipotitumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.drogokomogu {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--drogokomogufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.folkini {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--folkinifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.pheonxellium {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--pheonxelliumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.ibixious {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--ibixiousfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.troccan {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--troccanfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.chromontas {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--chromontasfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.inkouanium {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--inkouaniumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.soldon {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--soldonfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.tosha {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--toshafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.sagordu {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--sagordufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.ekrixious {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--ekrixiousfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.sthimmer {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--sthimmerfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.geckekon {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--geckekonfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.atomicoulu {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--atomicoulufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.skorpelaton {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--skorpelatonfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.ankromedion {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--ankromedionfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.delissos {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--delissosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.meleros {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--melerosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.topsimium {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--topsimiumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.dilamperos {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--dilamperosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.dragostegos {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--dragostegosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.bughini {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--bughinifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.weveeni {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--weveenifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.konopetu {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--konopetufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.langbutsa {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--langbutsafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.soltheos {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--soltheosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.bogdanaki {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--bogdanakifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.arachameo {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--arachameofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.argipill {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--argipillfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.delitirium {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--delitiriumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.grails {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--grailsfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.fantapill {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--fantapillfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.isch {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--ischfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.muskmoll {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--muskmollfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.exanthropides {
+  --color1: var(--delta1);
+  --color2: var(--delta2);
+  --front: var(--exanthropidesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.stirk {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--stirkfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.ospa {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--ospafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.hopleaf {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--hopleaffront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.trispitchyu {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--trispitchyufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.hopgrauss {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--hopgraussfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.tord {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--tordfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.fleeni {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--fleenifront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.paramander {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--paramanderfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.philantikos {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--philantikosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.newtupiter {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--newtupiterfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.giguswoll {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--giguswollfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.manthereum {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--manthereumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.honghonos {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--honghonosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.nakredes {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--nakredesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.tolkron {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--tolkronfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.megakonos {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--megakonosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.levriss {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--levrissfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.snaphilides {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--snaphilidesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.terpenium {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--terpeniumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.parawhal {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--parawhalfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.medvedes {
+  --color1: var(--phi1);
+  --color2: var(--phi2);
+  --front: var(--medvedesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.nkyoyo {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--nkyoyofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.raous {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--raousfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.poufias {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--poufiasfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.poulosium {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--poulosiumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.dokoridellium {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--dokoridelliumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.encratops {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--encratopsfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.okroppium {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--okroppiumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.nych {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--nychfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.levus {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--levusfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.prawdes {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--prawdesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.clamus {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--clamusfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.zeagsea {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--zeagseafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.thaventis {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--thaventisfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.periping {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--peripingfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.leoparnious {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--leoparniousfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.maggsmillites {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--maggsmillitesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.elstagriump {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--elstagriumpfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.srow {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--srowfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.souva {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--souvafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.lehbos {
+  --color1: var(--psi1);
+  --color2: var(--psi2);
+  --front: var(--lehbosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.centraullides {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--centraullidesfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.trichron {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--trichronfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.brevrys {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--brevrysfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.katamechu {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--katamechufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.sehe {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--sehefront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.akriadinama {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--akriadinamafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.polylada {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--polyladafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.tortmov {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--tortmovfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.mcroob {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--mcroobfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.stukos {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--stukosfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.zerbuson {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--zerbusonfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.voltera {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--volterafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.wolvera {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--wolverafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.stimprima {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--stimprimafront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.toocoodo {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--toocoodofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.hexellion {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--hexellionfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.elphlong {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--elphlongfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.meo {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--meofront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.whilkilneum {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--whilkilneumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.gatafishu {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--gatafishufront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.crozelium {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--crozeliumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.swoon {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--swoonfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card.mishereum {
+  --color1: #2C08A1;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #1C08A1;
+  --front: var(--mishereumfront);
+  height: 320px;
+  width: 228px;
+}
+
+.card:before,
+.card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  opacity: 0;
+  mix-blend-mode: color-dodge;
+  transition: all 0.33s ease;
+}
+
+.card:before {
+  background-position: 50% 50%;
+  background-size: 300% 300%;
+  background-image: linear-gradient(115deg, transparent 0%, var(--color1) 25%, transparent 47%, transparent 53%, var(--color2) 75%, transparent 100%);
+  opacity: 0.5;
+  filter: brightness(0.5) contrast(1);
+  z-index: 1;
+}
+
+.card:after {
+  opacity: 1;
+  top: 7%;
+  left: 6%;
+  height: 45%;
+  width: 88%;
+  background-image: url("https://assets.codepen.io/13471/sparkles.gif"), url(https://assets.codepen.io/13471/holo.png), linear-gradient(125deg, #ff008470 5%, #fca40060 30%, #ffff0050 40%, #00ff8a40 60%, #00cfff60 70%, #cc4cfa80 95%);
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-blend-mode: luminosity;
+  z-index: 2;
+  filter: brightness(1) contrast(1);
+  transition: all 0.33s ease;
+  mix-blend-mode: color-dodge;
+  opacity: 0.9;
+}
+
+.card.active:after,
+.card:hover:after {
+  filter: brightness(1) contrast(1);
+  opacity: 1;
+}
+
+.card.active,
+.card:hover {
+  animation: none;
+}
+
+.card.active:before,
+.card:hover:before {
+  animation: none;
+  background-position: 50% 50%;
+  background-size: 250% 250%;
+  opacity: 0.88;
+  filter: brightness(0.66) contrast(1.33);
+  transition: none;
+}
+
+.card.active:before,
+.card:hover:before,
+.card.active:after,
+.card:hover:after {
+  animation: none;
+  transition: none;
+}
+
+.card.animated {
+  height: 320px;
+  width: 228px;
+  transition: none;
+  animation: holoCard 12s ease 0.4s 1;
+}
+.card.animated:before {
+  transition: none;
+  animation: holoGradient 12s ease 0.4s 1;
+}
+.card.animated:after {
+  transition: none;
+  animation: holoSparkle 12s ease 0.4s 1;
+}
+
+@keyframes holoSparkle {
+  0%, 100% {
+    opacity: 0.85;
+    background-position: 50% 50%;
+    filter: brightness(1) contrast(1.25);
+  }
+  5%, 8% {
+    opacity: 1;
+    background-position: 40% 40%;
+    filter: brightness(0.8) contrast(1.2);
+  }
+  13%, 16% {
+    opacity: 0.6;
+    background-position: 50% 50%;
+    filter: brightness(1) contrast(0.8);
+  }
+  35%, 38% {
+    opacity: 1;
+    background-position: 60% 60%;
+    filter: brightness(1) contrast(1);
+  }
+  55% {
+    opacity: 0.44;
+    background-position: 45% 45%;
+    filter: brightness(1) contrast(1.25);
+  }
+}
+#app {
+  position: relative;
+}
+
+.demo,
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  perspective: 0px;
+  position: relative;
+  z-index: 1;
+  transform: translate3d(5px, 15px);
+}
+
+.demo {
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    flex-direction: row;
+  }
+}
+.cards .card:nth-child(2), .cards .card:nth-child(2):before, .cards .card:nth-child(2):after {
+  animation-delay: 0.25s;
+}
+.cards .card:nth-child(3), .cards .card:nth-child(3):before, .cards .card:nth-child(3):after {
+  animation-delay: 0.5s;
+}
+.cards .card:nth-child(4), .cards .card:nth-child(4):before, .cards .card:nth-child(4):after {
+  animation-delay: 0.75s;
+}

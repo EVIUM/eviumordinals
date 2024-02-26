@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+svg {
+  font-family: "Archivo Black", sans-serif;
+}
+
+svg tspan {
+  font-family: "Archivo Black", sans-serif;
+  animation: stroke 10s infinite alternate;
+  stroke-width: 4;
+  stroke: #365fa0;
+  font-size: 140px;
+  letter-spacing: 4px;
+  text-shadow: 0px 1px 30px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: #fccd0f;
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 4;
+  }
+  10% {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: #fccd0f;
+    stroke-width: 4;
+  }
+  20% {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: #0f97f2;
+    stroke-width: 4;
+  }
+  30% {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: #f2290f;
+    stroke-width: 4;
+  }
+  40% {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: #0ff20f;
+    stroke-width: 4;
+  }
+  50% {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: #4f0ff2;
+    stroke-width: 4;
+  }
+  60% {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: #eb86eb;
+    stroke-width: 4;
+  }
+  70% {
+    fill: black;
+    stroke: #faf7fa;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 4;
+  }
+  80% {
+    fill: #fefefe;
+    stroke: #3c3cf0;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 4;
+  }
+  100% {
+    fill: #fefefe;
+    stroke: #3c3cf0;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 4;
+  }
+}
