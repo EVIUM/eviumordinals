@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html class="font-monospace" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Evium Ordinals</title>
+    <meta name="twitter:description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:description" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:image" content="assets/img/favicon512.png">
+    <meta property="og:image" content="assets/img/favicon512.png">
+    <meta name="description" content="">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/favicon180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon512.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rowdies:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/grid.compiled.css">
+    <link rel="stylesheet" href="assets/css/holo.compiled.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/login.compiled.css">
+    <link rel="stylesheet" href="assets/css/logo.compiled.css">
+    <link rel="stylesheet" href="assets/css/main.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles-1.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles.compiled.css">
+    <link rel="stylesheet" href="assets/css/tabs.compiled.css">
+</head>
+
+<body style="background: #050505;">
+    <section data-aos="fade" data-aos-duration="2500" data-aos-once="true" style="width: 100%;min-width: 100%;max-width: 100%;color: rgb(37,24,118);">
+        <div data-aos="zoom-in-up" data-aos-duration="450" data-aos-once="true" class="d-flex justify-content-center align-items-center" style="height: auto;padding-bottom: 10vh;padding-top: 10vh;"><div><div class="d-flex justify-content-center align-items-center"><div class="d-flex justify-content-center align-items-center"><h1 class="font-monospace" style="margin-top: 5vh; color: rgb(255,255,255);font-weight: bold;font-size: 0.5REM;text-align: center; cursor: default;"><img style="width:600px; max-width:80vw;" src="assets/img/EviumOrdinals.png" /><br><a href="https://inscribenow.io" target="_blank"><button class="evebtn font-monospace" type="button" style="margin-top:24px">Mint 🟧</button></a><a href="https://discord.gg/bd4d5NhK7u"><button class="evebtn font-monospace" type="button" style="margin-top:24px">Whitelist <svg width="24" height="20" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+    <g>
+        <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#5865F2" fill-rule="nonzero">
+</path>
+    </g>
+                        </svg></button></a><br><a><h7 class="font-monospace">Hand-drawn <h7 class="font-monospace" style="text-decoration:underline">bits</h7> of the Evium Trading Card RPG.<br>10,000 limited pieces.</h7></a></h1></div>
+    </div>
+
+<ul class="grid">
+    
+    <li class="column"><img src="assets/img/Alpha_Energy.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Beta_Energy.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Gamma_Energy.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Delta_Energy.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Phi_Energy.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Psi_Energy.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Omega_Energy.png" style="width: 100%;height: 100%;" /></li>
+    
+    </ul>
+    
+    <ul class="grid" style="margin-top:32px;">
+    
+  <li class="column"><img src="assets/img/Donzovelium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Agrigata.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Mazzmotis.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Stallius.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Waldrog.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Plasmotis.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Pangzillous.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Bertizardes.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Yakis.png" style="width: 100%;height: 100%;" /></li>
+  <li class="column"><img src="assets/img/Mandmonk.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Wovolk.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Hedzed.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Koabkraub.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Gronamides.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Nothriles.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Zbrunicron.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Exkamilop.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Wheasleap.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Moonsse.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Metafoks.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Krakvus.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Ducquap.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Leathion.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Whalgfaurus.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Zharkhaious.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Kavasillacrab.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Okoimoto.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Terazarious.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Soigigi.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Gorgonitu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Finkintonos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Jiki.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Exonero.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Creby.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Terlona.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Solfriss.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Motivivo.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Shimpking.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Asterites.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Sleo.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Salparthia.png" style="width: 100%;height: 100%;" /></li>
+  <li class="column"><img src="assets/img/Gariman.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Pingini.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Finido.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Freglegs.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Marlharl.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Drazozelium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Hipotitum.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Drogokomogu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Folkini.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Pheonxellium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Ibixious.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Troccan.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Chromontas.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Inkouanium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Soldon.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Tosha.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Sagordu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Ekrixious.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Sthimmer.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Geckekon.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Atomicoulu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Skorpelaton.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Ankromedion.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Delissos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Meleros.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Topsimium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Dilamperos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Dragostegos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Bughini.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Weveeni.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Konopetu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Langbutsa.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Soltheos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Bogdanaki.png" style="width: 100%;height: 100%;" /></li>
+  <li class="column"><img src="assets/img/Arachameo.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Argipill.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Delitirium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Grails.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Fantapill.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Isch.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Muskmoll.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Exanthropides.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Stirk.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Ospa.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Hopleaf.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Trispitchyu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Hopgrauss.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Tord.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Fleeni.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Paramander.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Philantikos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Newtupiter.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Giguswoll.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Manthereum.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Honghonos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Nakredes.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Tolkron.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Megakonos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Levriss.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Snaphilides.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Terpenium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Parawhal.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Medvedes.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Nkyoyo.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Raous.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Poufias.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Poulosium.png" style="width: 100%;height: 100%;" /></li>
+  <li class="column"><img src="assets/img/Dokoridellium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Encratops.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Okroppium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Nych.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Nych.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Prawdes.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Clamus.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Zeagsea.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Thaventis.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Periping.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Leoparnious.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Maggsmillites.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Elstagriump.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Srow.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Souva.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Lehbos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Centraullides.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Trichron.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Brevrys.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Katamechu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Sehe.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Akriadinama.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Polylada.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Tortmov.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Mcroob.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Stukos.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Zerbuson.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Voltera.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Wolvera.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Stimprima.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Toocoodo.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Hexellion.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Elphlong.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Meo.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Whilkilneum.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Gatafishu.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Crozelium.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Swoon.png" style="width: 100%;height: 100%;" /></li>
+    <li class="column"><img src="assets/img/Mishereum.png" style="width: 100%;height: 100%;" /></li>
+</ul>
+    </div></div>
+    </section>
+    <div style="margin-top: -100vh;"><div class="app-container chat" style="height:100vh">
+    <div class="sidebar-wrapper">
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-header">
+                    <div class="evium-logo" onClick="toggleSidebar()">
+                  <div class="d-flex justify-content-center align-items-center">      <div class="font-monospace" style="font-weight: bold">EVIUM</div>
+<div class="energy-image">
+                            <img src="assets/img/E_E.png" style="border-radius: 50%; margin-left: 5px; margin-right:5px; width:25px; height:100%"/>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-group" style="text-decoration:none">
+                    <div class="sidebar-group-header" style="text-decoration:none">
+                        <div class="font-monospace">EVIUM 154/154</div>
+                        <a class="view-all font-monospace" href="index.html#mint" style="text-decoration:none">[ MINT ]</a>
+                    </div>
+                    <a class="channel-link" style="text-decoration:none" href="alpha.html">
+                        <div class="card-image">
+                            <img src="assets/img/Donzovelium_1.gif" />
+                        </div>
+                        <div class="energy-image">
+                            <img src="assets/img/alphasymbol.png" />
+                        </div>
+                        <div class="channel-info" style="text-decoration:none">
+                            <div class="channel-name font-monospace" href="alpha.html">Alpha</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                    <a class="channel-link" style="text-decoration:none" href="beta.html">
+                        <div class="card-image">
+                            <img src="assets/img/Terazarious_1.gif" />
+                        </div>
+                        <div class="energy-image">
+                            <img src="assets/img/betasymbol.png" />
+                        </div>
+                        <div class="channel-info">
+                            <div class="channel-name font-monospace">Beta</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                    <a class="channel-link" style="text-decoration:none" href="gamma.html">
+                        <div class="card-image">
+                            <img src="assets/img/Drazozelium_1.gif" />
+                        </div>
+                        <div class="energy-image">
+                            <img src="assets/img/gammasymbol.png" />
+                        </div>
+                        <div class="channel-info">
+                            <div class="channel-name font-monospace">Gamma</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                    <a class="channel-link" style="text-decoration:none" href="delta.html">
+                        <div class="card-image">
+                            <img src="assets/img/Soltheos_1.gif" />
+                        </div>
+                        <div class="energy-image">
+                            <img src="assets/img/deltasymbol.png" />
+                        </div>
+                        <div class="channel-info">
+                            <div class="channel-name font-monospace">Delta</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                    <a class="channel-link" style="text-decoration:none" href="phi.html">
+                        <div class="card-image">
+                            <img src="assets/img/Snaphilides_1.gif" />
+                        </div>
+                        <div class="energy-image">
+                            <img src="assets/img/phisymbol.png" />
+                        </div>
+                        <div class="channel-info">
+                            <div class="channel-name font-monospace">Phi</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                    <a class="channel-link" style="text-decoration:none" href="psi.html">
+                        <div class="card-image">
+                            <img src="assets/img/Maggsmillites_1.gif" />
+                        </div>
+                        <div class="energy-image">
+                            <img src="assets/img/psisymbol.png" />
+                        </div>
+                        <div class="channel-info">
+                            <div class="channel-name font-monospace">Psi</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                    <a class="channel-link" style="text-decoration:none" href="omega.html">
+                        <div class="card-image">
+                            <img src="assets/img/Mishereum_JP.gif" />
+                        </div>
+                        <div class="energy-image">
+                            <img src="assets/img/omegasymbol.png" />
+                        </div>
+                        <div class="channel-info">
+                            <div class="channel-name font-monospace">Omega</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                </div>
+                <div class="sidebar-group">
+                    <div class="sidebar-group-header">
+                        <div class="font-monospace">LAND</div>
+                        <a class="view-all font-monospace" href="index.html#mint" style="text-decoration:none">[ MINT ]</a>
+                    </div>
+                    <a class="channel-link" style="text-decoration:none" href="index.html#mint">
+                        <div class="card-image" style="text-decoration:none">
+                            <img src="assets/img/landplot.gif" />
+                        </div>
+                        <div class="channel-info" style="text-decoration:none">
+                            <div class="channel-name font-monospace" style="text-decoration:none" href="index.html#mint">Evium Land</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                </div>
+                <div class="sidebar-group">
+                    <div class="sidebar-group-header">
+                        <div class="font-monospace">EVIUM TOKEN</div>
+                        <a class="view-all font-monospace" href="https://pancakeswap.finance/swap?outputCurrency=0xf946C5f9Ba07372A7e7f03E9CC2dAAbE2e8E1673" style="text-decoration:none">[ Trade ]</a>
+                    </div>
+                    <a class="channel-link" style="text-decoration:none" href="https://pancakeswap.finance/swap?outputCurrency=0xf946C5f9Ba07372A7e7f03E9CC2dAAbE2e8E1673">
+                        <div class="coin-image" style="text-decoration:none">
+                            <img src="assets/img/evecoin.png" />
+                        </div>
+                        <div class="channel-info" style="text-decoration:none">
+                            <div class="channel-name font-monospace" style="text-decoration:none" href="https://pancakeswap.finance/swap?outputCurrency=0xf946C5f9Ba07372A7e7f03E9CC2dAAbE2e8E1673">Evium Token</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/eth.png" />
+                        </div>
+                    </a>
+                </div>
+                <div class="sidebar-group">
+                    <div class="sidebar-group-header">
+                        <div class="font-monospace">ORDINALS</div>
+                        <a class="view-all font-monospace" href="ordinals.html" style="text-decoration:none">[ MINT ]</a>
+                    </div>
+                    <a class="channel-link" style="text-decoration:none" href="ordinals.html">
+                        <div class="ordinals-image" style="text-decoration:none">
+                            <img src="assets/img/Drazozelium.png" />
+                        </div>
+                        <div class="channel-info" style="text-decoration:none">
+                            <div class="channel-name font-monospace" style="text-decoration:none" href="index.html#mint">Evium Ordinals</div>
+                        </div>
+                        <div class="chain-image">
+                            <img src="assets/img/btc.png" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="page-overlay" onClick="toggleSidebar()"></div>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+
+            <div class="nav">
+                <div class="container"><button data-bs-toggle="collapse" data-bs-target="#navcol-1" class="navbar-toggler"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+        </div>
+    </div>
+                <div class="tools">
+                    <a class="home" style="margin-right:6px;" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-home">
+    <path stroke="none" d="M0 0h24v24H0z" fill-rule="nonzero"></path>
+    <polyline points="5 12 3 12 12 3 21 12 19 12"></polyline>
+    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+</svg>
+                            </a>
+                <div class="logo-wrapper">
+                <div id="sndFXtrig" class="profile-image-wrapper dropdown" onClick="toggleSidebar()" data-tooltip="Nav" data-tooltip-pos="down">
+                    <div id="makeNoise" class="navigation-image dropdown-toggle" style="padding-top: 0px; margin-top: 2px; margin-right: 24px">
+                        <img src="assets/img/E1.png"/><a class="font-monospace" style="margin-left:12px; color:#fff"> Evium Ordinals</a>
+                    </div>
+                </div>
+                <div class="evium-logo">
+                    <div style="color:#fff; font-size: 18px; text-shadow: 1px 1px 12px rgba(0,0,0,0.5);"></div>
+                </div>
+            </div>
+                <div class="evium-logo">
+                    <div style="color:#fff; font-size: 18px; text-shadow: 1px 1px 12px rgba(0,0,0,0.5);"></div>
+                </div><a class="home" style="margin-right:6px;" href="https://x.com/eviumlabs" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+</svg>
+                            </a><a class="home" style="margin-top: 2px"href="https://discord.gg/bd4d5NhK7u" target="_blank"><svg width="24" height="20" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+    <g>
+        <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#fefefe" fill-rule="nonzero">
+</path>
+    </g>
+</svg>
+                            </a>
+                <div style="margin-left: 15px">
+                <div class="profile-image-wrapper dropdown"  data-tooltip="Explore" data-tooltip-pos="down">
+                    <div class="menu-image dropdown-toggle" style="padding: 0px; margin-top: 5px">
+                        <img src="assets/img/menu.svg"/>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="dropdown-header">
+                            <div class="username font-monospace">Explorer</div>
+                        </div>
+                        <div class="dropdown-group">
+                        <a class="dropdown-link" href="index.html#mint">
+                                <i class="material-icons" style="color: orange;">draw</i>
+                                <h7 class="font-monospace" style="color: orange;">Mint NFT</h7>
+                            </a>
+                            <a class="dropdown-link" href="index.html#mint">
+                                <i class="material-icons">explore</i>
+                                <h7 class="font-monospace">Explore</h7>
+                            </a>
+                            <a class="dropdown-link" href="story.html">
+                                <i class="material-icons">notes</i>
+                                <h7 class="font-monospace">Story</h7>
+                            </a>
+                            <a class="dropdown-link" href="about.html">
+                                <i class="material-icons">help</i>
+                                <h7 class="font-monospace">About</h7>
+                            </a>
+                        </div>
+                        
+                        <div class="dropdown-group">
+                            <a class="dropdown-link " href="https://pancakeswap.finance/swap?outputCurrency=0xf946C5f9Ba07372A7e7f03E9CC2dAAbE2e8E1673" target="_blank">
+                                <i class="material-icons">wallet</i>
+                                <h7 class="font-monospace">Evium Token</h7>
+                            </a>
+                        </div>
+                            <div class="dropdown-group">
+                            <a class="dropdown-link" href="https://x.com/eviumlabs" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+</svg><h7 class="font-monospace" style="margin-left: 14px;">X.com</h7>
+                            </a>
+                            <a class="dropdown-link" href="https://discord.gg/bd4d5NhK7u" target="_blank">
+                                <svg width="20" height="16" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+    <g>
+        <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#5865F2" fill-rule="nonzero">
+</path>
+    </g>
+</svg><h7 class="font-monospace" style="margin-left: 14px;">Discord</h7>
+                            </a>
+                                <a class="dropdown-link" href="https://youtube.com" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-youtube">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <rect x="3" y="5" width="18" height="14" rx="4" fill="#ff0000"></rect>
+    <path d="M10 9l5 3l-5 3z" fill="#fff"></path>
+</svg><h7 class="font-monospace" style="margin-left: 14px;">YouTube</h7>
+                            </a>
+                        </div>
+                        <div class="dropdown-group">
+                            <a class="dropdown-link" href="game.html">
+                                <i class="material-icons">gamepad</i>
+                                <h7 class="font-monospace">Game</h7>
+                            </a>
+                            <a class="dropdown-link" id="nyan-btn" onClick="toggleMusicMode()">
+                                <i class="material-icons" id="musicMode">check_box_outline_blank</i>
+                                <h7 class="font-monospace">Music On/Off<audio id="nyan" src="https://github.com/EVIUM/audio/raw/main/audio.mp3" preload="metadata" type="audio/mpeg"></audio></h7>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+                </div>
+            </div>
+                </div>
+
+        </div>
+        
+</div></div><footer class="footer-dark" style="padding-bottom: 40px">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+                <h3 class="font-monospace">Site navigation</h3>
+                <ul>
+                    <li><a class="font-monospace" href="index.html">Home</a></li>
+                    <li><a class="font-monospace" href="index.html#mint">Mint</a></li>
+                    <li><a class="font-monospace" href="story.html">Story</a></li>
+                    <li><a class="font-monospace" href="about.html">About</a></li>
+                    <li><a class="font-monospace" href="game.html">RPG</a></li>
+                    <li><a class="font-monospace" href="ordinals.html">Ordinals</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+                <h3 class="font-monospace">External links</h3>
+                <ul>
+                    <li><a class="font-monospace" href="https://pancakeswap.finance/swap?outputCurrency=0xf946C5f9Ba07372A7e7f03E9CC2dAAbE2e8E1673" target="_blank">Evium Token</a></li>
+                    <li><a class="font-monospace" href="https://opensea.io/collection/eviumgame" target="_blank">Passports Opensea</a></li>
+                    <li><a class="font-monospace" href="https://opensea.io/collection/eviumlandbsc" target="_blank">Land Opensea</a></li>
+                    <li><a class="font-monospace">Ordinals Magic eden</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+                <h3 class="font-monospace">Socials</h3>
+                <ul>
+                    <li><a class="font-monospace" href="https://x.com/eviumlabs" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                        </svg> X.com</a></li>
+                    <li><a class="font-monospace" href="https://discord.gg/E3xc2XF3ZB" target="_blank"><svg width="20" height="16" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+    <g>
+        <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#5865F2" fill-rule="nonzero">
+</path>
+    </g>
+                        </svg> Discord</a></li>
+                    <li><a class="font-monospace" href="https://youtube.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-youtube">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <rect x="3" y="5" width="18" height="14" rx="4" fill="#ff0000"></rect>
+    <path d="M10 9l5 3l-5 3z" fill="#fff"></path>
+</svg> YouTube</a></li>
+                    <li><a class="font-monospace" href="https://youtube.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+    <circle cx="12" cy="12" r="3"></circle>
+    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+</svg> Instagram</a></li>
+                    <li><a class="font-monospace" href="mailto:mail@evium.org" target="_blank"><svg width="20" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+    <polyline points="3 7 12 13 21 7"></polyline>
+</svg> Business Email</a></li>
+                </ul>
+            </div>
+            <div class="col item text" style="margin-top:20px">
+                <h3 class="font-monospace">evium.games<br><br>evium.eth<br><br>evium.btc<br><br></h3>
+                <a href="alpha.html"><img src="assets/img/alphasymbol.png" style="width: 24px;height: 30px;" /></a>
+                <a href="beta.html"><img src="assets/img/betasymbol.png" style="width: 24px;height: 30px;" /></a>
+                <a href="gamma.html"><img src="assets/img/gammasymbol.png" style="width: 24px;height: 30px;" /></a>
+                <a href="delta.html"><img src="assets/img/deltasymbol.png" style="width: 24px;height: 30px;" /></a>
+                <a href="phi.html"><img src="assets/img/phisymbol.png" style="width: 24px;height: 30px;" /></a>
+                <a href="psi.html"><img src="assets/img/psisymbol.png" style="width: 24px;height: 30px;" /></a>
+                <a href="omega.html"><img src="assets/img/omegasymbol.png" style="width: 24px;height: 30px;" /></a>
+            </div>
+        </div>
+        <p class="copyright font-monospace">© evium.games 2024<br>All rights reserved</p>
+    </div>
+</footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://unpkg.com/vue@3.2.22/dist/vue.global.js"></script>
+    <script src="assets/js/js.js"></script>
+    <script src="assets/js/k.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/tabs.js"></script>
+</body>
+
+</html>
