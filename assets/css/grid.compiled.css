@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  max-width: 95vw;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column {
+  background-color: transparent;
+  color: white;
+  margin: 8px -4px;
+  width: 128px;
+  height: 128px;
+  padding: 8px;
+  transition: all 0.1s ease-in;
+}
+.column:hover {
+  padding: 0px;
+  cursor: default;
+  box-shadow: 1px 1px 6px 1px orange;
+}
+.column:active {
+  padding: 0px;
+  cursor: default;
+  box-shadow: 1px 1px 6px 1px orange;
+}
